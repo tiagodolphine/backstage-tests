@@ -1,0 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-tests
+  description: new repository from workflow for ansible job
+  annotations:
+    backstage.io/kubernetes-id: backstage-tests
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: api
+  system: system:default/podcast
+  lifecycle: production
+  owner: tiagodolphine

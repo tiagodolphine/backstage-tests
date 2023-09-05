@@ -1,0 +1,16 @@
+---
+apiVersion: tower.ansible.com/v1alpha1
+kind: JobTemplate
+metadata:
+  name: ansible-job-1-job-template
+  namespace: tiagodolphine
+spec:
+  tower_auth_secret: 1234
+  job_template_name: ansible-job-1
+  job_template_project: 
+  ask_variables_on_launch: 
+  job_template_playbook: 
+  job_template_inventory: 
+  job_template_credentials: 
+  job_template_extra_vars:
+    
