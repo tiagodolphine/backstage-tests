@@ -1,0 +1,9 @@
+---
+apiVersion: tower.ansible.com/v1alpha1
+kind: AnsibleJob
+metadata:
+  name: job1-job
+  namespace: test
+spec:
+  connection_secret: 1234
+  job_template_name: jobtemplate1
